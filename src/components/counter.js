@@ -4,9 +4,7 @@ import '../App.css';
 
 function Counter(){
     // declare count variable and setter
-    var [count, setCount] = useState(0); 
     // declare color variable and setter
-    var [color, setColor]=useState("Black");
 
     //the setter will re-render the page everytime the variable changes! This is what allows the website to change after we do anything on it :D!
 
